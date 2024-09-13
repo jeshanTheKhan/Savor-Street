@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Include Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/theme.min.css">
+    <link rel="stylesheet" href="css/theme-rtl.css">
+    <link rel="stylesheet" href="css/theme-rtl.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="favicons/favicon.ico">
+    <link rel="manifest" href="favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="favicons/mstile-150x150.png">
+    <title>Savor Street</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">🍔 Savor Street</div>
+        <div class="delivery-info">
+            <span>Deliver to: 📍 Current Location </span>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search Food">
+        </div>
+        <button class="login-btn">👤 Login</button>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Are you starving?</h1>
+            <p>Within a few clicks, find meals that are accessible near you</p>
+            <div class="search-container">
+                <div class="search-options">
+                    <div class="search-option" id="delivery">🚚 Delivery</div>
+                    <div class="search-option" id="pickup">🛍️ Pickup</div>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Enter Your Address">
+                    <button class="search-btn">Find Food</button>
+                </div>
+            </div>
+        </div>
+        <img src="images/hero-header.png" alt="Delicious noodles" class="food-image">
+    </section>
+    <br>
+    <div class="offer-container">
+        <div class="offer-card">
+            <img src="images/discount-item-1.png" alt="Flat Hill Slingback">
+            <div class="discount">15% Off</div>
+            <h3>Flat Hill Slingback</h3>
+            <span class="remaining-time">6 days Remaining</span>
+        </div>
+
+        <div class="offer-card">
+            <img src="images/discount-item-2.png" alt="Ocean Blue Ring">
+            <div class="discount">10% Off</div>
+            <h3>Ocean Blue Ring</h3>
+            <span class="remaining-time">6 days Remaining</span>
+        </div>
+
+        <div class="offer-card">
+            <img src="images/discount-item-3.png" alt="Brown Leathered Wallet">
+            <div class="discount">25% Off</div>
+            <h3>Brown Leathered Wallet</h3>
+            <span class="remaining-time">6 days Remaining</span>
+        </div>
+
+        <div class="offer-card">
+            <img src="images/discount-item-4.png" alt="Silverside Wristwatch">
+            <div class="discount">20% Off</div>
+            <h3>Silverside Wristwatch</h3>
+            <span class="remaining-time">6 days Remaining</span>
+        </div>
+    </div>
+    <br>
+    <section class="py-0 bg-primary-gradient">
+
+        <div class="container">
+          <div class="row justify-content-center g-0">
+            <div class="col-xl-9">
+              <div class="col-lg-6 text-center mx-auto mb-3 mb-md-5 mt-4">
+                <h5 class="fw-bold text-danger fs-3 fs-lg-5 lh-sm my-6">How does it work</h5>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 col-md-3 mb-6">
+                  <div class="text-center"><img class="shadow-icon" src="icons/location.png" height="112" alt="..." />
+                    <h5 class="mt-4 fw-bold">Select location</h5>
+                    <p class="mb-md-0">Choose the location where your food will be delivered.</p>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-6">
+                  <div class="text-center"><img class="shadow-icon" src="icons/order.png" height="112" alt="..." />
+                    <h5 class="mt-4 fw-bold">Choose order</h5>
+                    <p class="mb-md-0">Check over hundreds of menus to pick your favorite food</p>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-6">
+                  <div class="text-center"><img class="shadow-icon" src="icons/pay.png" height="112" alt="..." />
+                    <h5 class="mt-4 fw-bold">Pay advanced</h5>
+                    <p class="mb-md-0">It's quick, safe, and simple. Select several methods of payment</p>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-6">
+                  <div class="text-center"><img class="shadow-icon" src="icons/meals.png" height="112" alt="..." />
+                    <h5 class="mt-4 fw-bold">Enjoy meals</h5>
+                    <p class="mb-md-0">Food is made and delivered directly to your home.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- end of .container-->
+
+      </section>
+      <br>
+      <!-- ***** Men Area Starts ***** -->
+<section class="section" id="men">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>Ours Latest Food</h2>
+                    </div>
+                    <div class="button-wrapper">
+                        <button id="redirectButton" class="styled-button">See More</button>
+                    </div>
+                    <br>
+                </div>
+                <div class="men-item-carousel">
+                    <div class="owl-men-item owl-carousel">
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="hover-content">
+                                </div>
+                                <img src="Gallery/burger.png" alt="">
+                            </div>
+                            <div class="down-content">
+                                <h4 class="product-link">Burger</h4>
+                                <span><p class="product-link">$120.00</p></span>
+                                <div class="location-icon">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <span>Burger Arena</span>
+                                </div>
+                                <div class="d-grid gap-2"><a class="btn btn-lg btn-danger " href="#!" role="button">Order now</a></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="hover-content">
+                                </div>
+                                <img src="Gallery/chowmein.png" alt="">
+                            </div>
+                            <div class="down-content">
+                                <h4 class="product-link">Chowmin</h4>
+                                <span><p class="product-link">$120.00</p></span>
+                                <div class="location-icon">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <span>Kazi Aspagaras</span>
+                                </div>
+                                <div class="d-grid gap-2"><a class="btn btn-lg btn-danger " href="#!" role="button">Order now</a></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="hover-content">
+                                </div>
+                                <img src="Gallery/dancake.png" alt="">
+                            </div>
+                            <div class="down-content">
+                                <h4 class="product-link">Dncake</h4>
+                                <span><p class="product-link">$120.00</p></span>
+                                <div class="location-icon">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <span>Mashi</span>
+                                </div>
+                                <div class="d-grid gap-2"><a class="btn btn-lg btn-danger " href="#!" role="button">Order now</a></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="hover-content">
+                                </div>
+                                <img src="Gallery/search-pizza.png" alt="">
+                            </div>
+                            <div class="down-content">
+                                <h4 class="product-link">Pizza</h4>
+                                <span><p class="product-link">$120.00</p></span>
+                                <div class="location-icon">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <span>Pizza Zone</span>
+                                </div>
+                                <div class="d-grid gap-2"><a class="btn btn-lg btn-danger " href="#!" role="button">Order now</a></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="hover-content">
+                                </div>
+                                <img src="Gallery/thai-soup.png" alt="">
+                            </div>
+                            <div class="down-content">
+                                <h4 class="product-link">Thai-Soup</h4>
+                                <span><p class="product-link">$120.00</p></span>
+                                <div class="location-icon">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <span>HAAT</span>
+                                </div>
+                                <div class="d-grid gap-2"><a class="btn btn-lg btn-danger " href="#!" role="button">Order now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Men Area Ends ***** -->
+
+<section id="testimonial">
+    <div class="container">
+      <div class="row h-100">
+        <div class="col-lg-7 mx-auto text-center mb-6">
+          <h5 class="fw-bold fs-3 fs-lg-5 lh-sm mb-3">Featured Restaurants</h5>
+        </div>
+      </div>
+      <div class="row gx-2">
+        <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+          <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100" src="Gallery/food-world.png" alt="..." />
+            <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i class="fas fa-tag me-2 fs-0"></i><span class="fs-0">20% off</span></span><span class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span class="fs-0">Fast</span></span></div>
+            <div class="card-body ps-0">
+              <div class="d-flex align-items-center mb-3"><img class="img-fluid" style="height: 100px;width:auto" src="Gallery/food-world-logo.png" alt="" />
+                <div class="flex-1 ms-3">
+                  <h5 class="mb-0 fw-bold text-1000" style="text-align:left">Food world</h5><span class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span class="mb-0 text-primary">46</span>
+                </div>
+              </div><span class="badge bg-soft-danger p-2 "><span class="fw-bold fs-1 text-danger">Opens Tomorrow</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+          <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100" src="Gallery/pizza-hub.png" alt="..." />
+            <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i class="fas fa-tag me-2 fs-0"></i><span class="fs-0">10% off</span></span><span class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span class="fs-0">Fast</span></span></div>
+            <div class="card-body ps-0">
+              <div class="d-flex align-items-center mb-3"><img class="img-fluid" style="height: 100px;width:auto" src="Gallery/pizzahub-logo.png" alt="" />
+                <div class="flex-1 ms-3">
+                  <h5 class="mb-0 fw-bold text-1000" style="text-align:left">Pizza hub</h5><span class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span class="mb-0 text-primary">40</span>
+                </div>
+              </div><span class="badge bg-soft-danger p-2"><span class="fw-bold fs-1 text-danger">Opens Tomorrow</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+          <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100" src="Gallery/donuts-hut.png" alt="..." />
+            <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i class="fas fa-tag me-2 fs-0"></i><span class="fs-0">15% off</span></span><span class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span class="fs-0">Fast</span></span></div>
+            <div class="card-body ps-0">
+              <div class="d-flex align-items-center mb-3"><img class="img-fluid" style="height: 100px;width:auto" src="Gallery/donuts-hut-logo.png" alt="" />
+                <div class="flex-1 ms-3">
+                  <h5 class="mb-0 fw-bold text-1000" style="text-align:left">Donuts hut</h5><span class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span class="mb-0 text-primary">20</span>
+                </div>
+              </div><span class="badge bg-soft-success p-2"><span class="fw-bold fs-1 text-success">Open Now</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+          <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100" src="Gallery/donuthut.png" alt="..." />
+            <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i class="fas fa-tag me-2 fs-0"></i><span class="fs-0">15% off</span></span><span class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span class="fs-0">Fast</span></span></div>
+            <div class="card-body ps-0">
+              <div class="d-flex align-items-center mb-3"><img class="img-fluid" style="height: 100px;width:auto" src="Gallery/donut-hut-logo.png" alt="" />
+                <div class="flex-1 ms-3">
+                  <h5 class="mb-0 fw-bold text-1000" style="text-align:left">Donuts hut</h5><span class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span class="mb-0 text-primary">50</span>
+                </div>
+              </div><span class="badge bg-soft-success p-2"><span class="fw-bold fs-1 text-success">Open Now</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+          <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100" src="Gallery/ruby-tuesday.png" alt="..." />
+            <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i class="fas fa-tag me-2 fs-0"></i><span class="fs-0">10% off</span></span><span class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span class="fs-0">Fast</span></span></div>
+            <div class="card-body ps-0">
+              <div class="d-flex align-items-center mb-3"><img class="img-fluid" style="height: 100px;width:auto" src="Gallery/ruby-tuesday-logo.png" alt="" />
+                <div class="flex-1 ms-3">
+                  <h5 class="mb-0 fw-bold text-1000" style="text-align:left">Ruby tuesday</h5><span class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span class="mb-0 text-primary">50</span>
+                </div>
+              </div><span class="badge bg-soft-success p-2"><span class="fw-bold fs-1 text-success">Open Now</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+          <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100" src="Gallery/kuakata.png" alt="..." />
+            <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i class="fas fa-tag me-2 fs-0"></i><span class="fs-0">10% off</span></span><span class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span class="fs-0">Fast</span></span></div>
+            <div class="card-body ps-0">
+              <div class="d-flex align-items-center mb-3"><img class="img-fluid" style="height: 100px;width:auto" src="Gallery/kuakata-logo.png" alt="" />
+                <div class="flex-1 ms-3">
+                  <h5 class="mb-0 fw-bold text-1000" style="text-align:left">Kuakata Fried Chicken</h5><span class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span class="mb-0 text-primary">50</span>
+                </div>
+              </div><span class="badge bg-soft-success p-2"><span class="fw-bold fs-1 text-success">Open Now</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+          <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100" src="Gallery/red-square.png" alt="..." />
+            <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i class="fas fa-tag me-2 fs-0"></i><span class="fs-0">10% off</span></span><span class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span class="fs-0">Fast</span></span></div>
+            <div class="card-body ps-0">
+              <div class="d-flex align-items-center mb-3"><img class="img-fluid"  style="height: 100px;width:auto" src="Gallery/red-square-logo.png" alt="" />
+                <div class="flex-1 ms-3">
+                  <h5 class="mb-0 fw-bold text-1000" style="text-align:left">Kuakata Fried Chicken</h5><span class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span class="mb-0 text-primary">50</span>
+                </div>
+              </div><span class="badge bg-soft-success p-2" ><span class="fw-bold fs-1 text-success">Open Now</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+          <div class="card card-span h-100 text-white rounded-3"><img class="img-fluid rounded-3 h-100" src="Gallery/taco-bell.png" alt="..." />
+            <div class="card-img-overlay ps-0"><span class="badge bg-danger p-2 ms-3"><i class="fas fa-tag me-2 fs-0"></i><span class="fs-0">10% off</span></span><span class="badge bg-primary ms-2 me-1 p-2"><i class="fas fa-clock me-1 fs-0"></i><span class="fs-0">Fast</span></span></div>
+            <div class="card-body ps-0">
+              <div class="d-flex align-items-center mb-3"><img class="img-fluid" style="height: 100px;width:auto" src="Gallery/taco-bell-logo.png" alt="" />
+                <div class="flex-1 ms-3">
+                  <h5 class="mb-0 fw-bold text-1000" style="text-align:left">Taco bell</h5><span class="text-primary fs--1 me-1"><i class="fas fa-star"></i></span><span class="mb-0 text-primary" >50</span>
+                </div>
+              </div><span class="badge bg-soft-success p-2" ><span class="fw-bold fs-1 text-success" >Open Now</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 d-flex justify-content-center mt-5"> <a class="btn btn-lg btn-primary" href="#!">View All <i class="fas fa-chevron-right ms-2"> </i></a></div>
+      </div>
+    </div>
+  </section>
+  <br>
+        <!-- ============================================-->
+      <!-- <section> begin ============================-->
+        <section class="pb-5 pt-8">
+
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="card card-span mb-3 shadow-lg">
+                  <div class="card-body py-0">
+                    <div class="row justify-content-center">
+                      <div class="col-md-5 col-xl-7 col-xxl-8 g-0 order-0 order-md-1"><img class="img-fluid w-100 fit-cover h-100 rounded-top rounded-md-end rounded-md-top-0" src="Gallery/crispy-sandwiches.png" alt="..." /></div>
+                      <div class="col-md-7 col-xl-5 col-xxl-4 p-4 p-lg-5">
+                        <h1 class="card-title mt-xl-5 mb-4">Best deals <span class="text-primary"> Crispy Sandwiches</span></h1>
+                        <p class="fs-1">Enjoy the large size of sandwiches. Complete your meal with the perfect slice of sandwiches.</p>
+                        <div class="d-grid bottom-0"><a class="btn btn-lg btn-primary mt-xl-6" href="#!">PROCEED TO ORDER<i class="fas fa-chevron-right ms-2"></i></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- end of .container-->
+  
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+  
+  
+  
+  
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="py-0">
+  
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="card card-span mb-3 shadow-lg">
+                  <div class="card-body py-0">
+                    <div class="row justify-content-center">
+                      <div class="col-md-5 col-xl-7 col-xxl-8 g-0 order-md-0"><img class="img-fluid w-100 fit-cover h-100 rounded-top rounded-md-start rounded-md-top-0" src="Gallery/fried-chicken.png" alt="..." /></div>
+                      <div class="col-md-7 col-xl-5 col-xxl-4 p-4 p-lg-5">
+                        <h1 class="card-title mt-xl-5 mb-4">Celebrate parties with <span class="text-primary">Fried Chicken</span></h1>
+                        <p class="fs-1">Get the best fried chicken smeared with a lip smacking lemon chili flavor. Check out best deals for fried chicken.</p>
+                        <div class="d-grid bottom-0"><a class="btn btn-lg btn-primary mt-xl-6" href="#!">PROCEED TO ORDER<i class="fas fa-chevron-right ms-2"></i></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- end of .container-->
+  
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+  
+  
+  
+  
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="pt-5">
+  
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="card card-span mb-3 shadow-lg">
+                  <div class="card-body py-0">
+                    <div class="row justify-content-center">
+                      <div class="col-md-5 col-xl-7 col-xxl-8 g-0 order-0 order-md-1"><img class="img-fluid w-100 fit-cover h-100 rounded-top rounded-md-end rounded-md-top-0" src="Gallery/pizza.png" alt="..." /></div>
+                      <div class="col-md-7 col-xl-5 col-xxl-4 p-4 p-lg-5">
+                        <h1 class="card-title mt-xl-5 mb-4">Wanna eat hot & <span class="text-primary">spicy Pizza?</span></h1>
+                        <p class="fs-1">Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals.</p>
+                        <div class="d-grid bottom-0"><a class="btn btn-lg btn-primary mt-xl-6" href="#!">PROCEED TO ORDER<i class="fas fa-chevron-right ms-2"></i></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- end of .container-->
+  
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+  
+  
+        <section class="py-0">
+          <div class="bg-holder" style="background-image:url(Gallery/cta-two-bg.png);background-position:center;background-size:cover;">
+          </div>
+          <!--/.bg-holder-->
+  
+          <div class="container">
+            <div class="row flex-center">
+              <div class="col-xxl-9 py-7 text-center">
+                <h1 class="fw-bold mb-4 text-white fs-6">Are you ready to order <br />with the best deals? </h1><a class="btn btn-danger" href="#"> PROCEED TO ORDER<i class="fas fa-chevron-right ms-2"></i></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <br>
+  
+        <footer>
+          <div class="footer-content">
+              <div class="footer-section about">
+                  <h2>About Us</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="footer-section links">
+                  <h2>Quick Links</h2>
+                  <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Contact</a></li>
+                  </ul>
+              </div>
+              <div class="footer-section contact">
+                  <h2>Contact Us</h2>
+                  <p>Email: khan.jeshan26@gmail.com</p>
+                  <p>Phone: +880</p>
+                  <p>Address: 123 Street, City, Country</p>
+              </div>
+          </div>
+      </footer>
+       
+</body>
+<script
+src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.j
+s"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-
+alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Include Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="js/theme.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&amp;display=swap" rel="stylesheet">
+
+
+<script src="js/main.js"></script>
+<script src="js/theme.min.js"></script>
+<script src="js/theme.js"></script>
+</html>
